@@ -6,3 +6,5 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (25)	-			    En el estado actual, la fusión
+				    se haría por fast-forward
