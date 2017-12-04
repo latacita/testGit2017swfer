@@ -8,3 +8,6 @@
 ====== ============================ ================================
  (25)	-			    En el estado actual, la fusión
 				    se haría por fast-forward
+ (27)	tag RespuestaPreguntaFusion
+ (28)	push --all origin	    Se encontraba fuera de sincronía. 
+	+ push --tags 		    Solventado haciendo pull + push.
