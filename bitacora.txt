@@ -1,12 +1,18 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Solar Iglesias, Fernando             %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (03)   branch Historia000
+ (04)   branch Historia001
+ (05)   checkout Historia000
  (07)	add bitacora.txt
  (08) 	commit -m "Paso 08"
  (09)	checkout Historia001
- (16)	stash apply
+ (11)	stash + checkout	    Cambios pendientes sin confirmar,
+				    solucionado mediante stash.
+ (16)   stash apply
+ (20)	merge Historia000	    Fusión recursiva
