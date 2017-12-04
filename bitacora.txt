@@ -1,13 +1,24 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Solar Iglesias, Fernando             %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
- (25)	-			    En el estado actual, la fusión
-				    se haría por fast-forward
- (27)	tag RespuestaPreguntaFusion
- (28)	push --all origin	    Se encontraba fuera de sincronía. 
-	+ push --tags 		    Solventado haciendo pull + push.
+ (03)   branch Historia000
+ (04)   branch Historia001
+ (05)   checkout Historia000
+ (07)	add bitacora.txt
+ (08) 	commit -m "Paso 08"
+ (09)	checkout Historia001
+ (11)	stash + checkout	    Cambios pendientes sin confirmar,
+				    solucionado mediante stash.
+ (16)   stash apply
+ (20)	merge Historia000	    Fusión recursiva
+ (25)   -                           En el estado actual, la fusión
+                                    se haría por fast-forward
+ (27)   tag RespuestaPreguntaFusion
+ (28)   push --all origin           Se encontraba fuera de sincronía.
+        + push --tags               Solventado haciendo pull + push.
+ (31)	merge Historia001	    Fusión recursiva
